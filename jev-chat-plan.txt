@@ -1,0 +1,13 @@
+I want to create a chat application for people that are interested to be certified for the Blue Angel for Software
+  (DE-UZ 215). In this folder you find a file called criteria.txt which holds all the criteria for the certification.
+
+  What I would like to have is an interactive CLI application where the user can input an URL into a form field and
+  then the page is fetched and a decision model, currently Jev is planned, then answers
+  the certification questions with a structured output that the frontend can then show nicely.
+  By nicely I mean that every criterion is shown as Verified, Not-Possible, or maybe and then show the comments that
+  have come up in the verification.
+
+  Can you write a simple setup where a python file for now that just takes a CLI argumet with a webpage does this?
+
+It should stream the working process of as I have it in the CLI, so
+  that I can see the updates happening.

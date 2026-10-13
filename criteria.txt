@@ -1,0 +1,32 @@
+A. Grundsätzliche Eignung
+
+1. Softwareprodukt: Handelt es sich um ein eigenständiges, lizenzierbares Softwareprodukt, das auch von Dritten genutzt werden kann? Falls nein: Lässt sich ein eigenständiges, separat lizenzierbares Produkt abgrenzen? Falls nein: Nicht geeignet.
+2. Softwarekategorie: Handelt es sich um Anwendungssoftware und nicht um ein Betriebssystem, Framework oder eine Programmiersprache? Falls nein: Nicht geeignet.
+3. Plattformen: Wird die Software auf PCs, mobilen Endgeräten oder Servern ausgeführt, auf die zusammen mindestens 90 % ihres betriebsbedingten IKT-Energieverbrauchs entfallen? Falls nein: Kann dies durch eine nachvollziehbare Energiebilanz doch nachgewiesen werden? Falls nein: Nicht geeignet.
+4. Messbarkeit: Kann der Energieverbrauch der relevanten Softwarebestandteile einschließlich genutzter Server und externer Dienste ermittelt werden? Falls nein: Können fehlende Daten durch geeignete Messungen oder nachvollziehbare Berechnungen ergänzt werden? Falls nein: Nicht geeignet.
+5. KI-Training: Wird für die Entwicklung der Software keine energieintensive KI trainiert? Falls nein: Ist der Trainingsenergieverbrauch präzise messbar und geringer als der erwartete Energieverbrauch während eines Jahres repräsentativer Nutzung? Falls nein: Nicht geeignet.
+6. Rechtliche Anforderungen: Erfüllt die Software die gesetzlichen Anforderungen einschließlich des Jugendmedienschutzes? Falls nein: Können die Verstöße vor Antragstellung beseitigt werden? Falls nein: Nicht geeignet.
+B. Technische Anforderungen
+7. Abwärtskompatibilität: Funktioniert die Software auf Hardware oder einem Betriebssystem, das mindestens fünf Jahre alt ist? Falls nein: Kann die Kompatibilität hergestellt werden? Falls nein: Nicht geeignet.
+8. Energiemanagement: Funktioniert die Software bei aktiviertem Energiemanagement uneingeschränkt? Falls nein: Werden Energiesparfunktionen nur vorübergehend für notwendige Vorgänge deaktiviert und anschließend automatisch reaktiviert? Falls nein: Nicht geeignet.
+9. Messverfahren: Können repräsentative Nutzungsszenarien definiert und wiederholbar gemessen werden? Falls nein: Ist alternativ eine geeignete Langzeitmessung im Produktivbetrieb möglich? Falls nein: Nicht geeignet.
+
+
+C. Nutzungsautonomie und Transparenz
+
+10. Datenformate: Können die von der Software erzeugten Daten in dokumentierten Formaten bereitgestellt oder exportiert werden, sodass andere Programme sie ohne wesentlichen Informationsverlust verarbeiten können? Falls nein: Können entsprechende Exportmöglichkeiten oder Dokumentationen geschaffen werden? Falls nein: Nicht geeignet.
+11. Schnittstellen: Sind vorhandene Programmierschnittstellen (APIs) dokumentiert? Falls nein: Kann die Dokumentation bereitgestellt werden? Falls nein: Nicht geeignet.
+12. Quellcode und Supportende: Ist der Quellcode der Software öffentlich zugänglich? Falls nein: Kann verbindlich dokumentiert werden, was nach dem Supportende mit der Software geschieht, beispielsweise durch Quellcodefreigabe, Drittunterstützung oder einen Escrow-Vertrag? Falls nein: Nicht geeignet.
+13. Sicherheitsupdates: Werden Sicherheitsupdates kostenlos bereitgestellt – bei PC-/Server-Software mindestens fünf Jahre ab Bereitstellungsende, bei mobilen Apps mindestens drei Jahre ab Kennzeichnung? Falls nein: Kann der Anbieter diese Verpflichtung übernehmen? Falls nein: Nicht geeignet.
+14. Deinstallation: Kann die Software einschließlich zusätzlich installierter Komponenten einfach und ohne unnötige Datenreste deinstalliert werden? Falls nein: Kann dies technisch ermöglicht werden? Falls nein: Nicht geeignet.
+15. Modularität (PC/Server): Können nicht benötigte Funktionen bei der Installation weggelassen oder während der Nutzung deaktiviert werden? Falls nein: Können die bestehenden Möglichkeiten zur Begrenzung des Funktionsumfangs dokumentiert werden? Falls nein: Klärung erforderlich. Fehlende Modularität allein ist kein Ausschlussgrund.
+16. Werbefreiheit (PC/Mobilgeräte): Verzichtet die Software auf Werbung? Falls nein: Wird ausschließlich für das eigene Unternehmen, weitere Versionen oder andere Software desselben Herstellers geworben? Falls nein: Nicht geeignet.
+17. Tracking (PC/Mobilgeräte): Verzichtet die Software standardmäßig auf Tracking? Falls nein: Erfolgt das Tracking ausschließlich nach bewusster Zustimmung der Nutzenden und kann es jederzeit wieder deaktiviert werden? Falls nein: Ist das Tracking gesetzlich vorgeschrieben? Falls nein: Nicht geeignet.
+18. Dokumentation: Können die erforderlichen Informationen über Systemvoraussetzungen, Messungen, Datenformate, Updates und weitere Produkteigenschaften öffentlich bereitgestellt werden? Falls nein: Ist der Anbieter bereit, diese Dokumentation vor Antragstellung zu erstellen und zu veröffentlichen? Falls nein: Nicht geeignet.
+
+
+D. Bereitschaft zur Zertifizierung
+
+19. Transparenz: Ist der Antragsteller bereit, die Ergebnisse der Ressourcen- und Energieverbrauchsmessungen öffentlich zu machen? Falls nein: Nicht geeignet.
+20. Langfristige Einhaltung: Ist der Antragsteller bereit, bei Produktänderungen die erforderlichen Nachmessungen und Aktualisierungen der Dokumentation vorzunehmen? Falls nein: Nicht geeignet.
+21. Audit: Ist der Antragsteller bereit, die notwendigen Nachweise durch eine unabhängige, von RAL benannte Auditorin oder einen Auditor prüfen zu lassen? Falls nein: Nicht geeignet.

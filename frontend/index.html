@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blue Angel Pre-Check</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.css">
+    <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+    <div class="ui top fixed borderless menu" id="top-menu">
+        <div class="header item">
+            <i class="leaf green icon"></i>
+            Blue Angel Pre-Check
+            <span class="ui tiny basic label" id="criteria-label">DE-UZ 215</span>
+        </div>
+        <div class="right menu">
+            <div class="item"><span class="ui tiny label" id="auth-label">…</span></div>
+            <div class="item">
+                <button class="ui small basic button" id="new-assessment" type="button">
+                    <i class="plus icon"></i> New assessment
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <main id="chat">
+        <div class="ui container" id="messages">
+            <div class="message-row assistant">
+                <div class="ui segment bubble">
+                    <h3 class="ui header">Could your software get the Blue Angel?</h3>
+                    <p>Enter the URL of a software product. An AI agent researches the product page, privacy policy,
+                        support pages, source code and web search results, then checks all 21 criteria of the
+                        <strong>Blauer Engel für Software (DE-UZ 215)</strong>.</p>
+                    <p>You can watch every step live. Each criterion is rated
+                        <span class="ui green mini label">Verified</span>
+                        <span class="ui yellow mini label">Maybe</span>
+                        <span class="ui red mini label">Not possible</span>
+                        with comments and evidence. Afterwards you can answer open questions in the chat and the
+                        agent updates its assessment.</p>
+                    <p class="disclaimer">This is an automated first check, not an official audit by RAL.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="composer">
+        <div class="ui container">
+            <form class="ui form" id="chat-form" autocomplete="off">
+                <div class="ui fluid action input" id="input-wrapper">
+                    <input type="text" id="chat-input" placeholder="https://www.example.com/product" required>
+                    <button class="ui primary button" id="send-button" type="submit">
+                        <i class="search icon"></i> <span id="send-label">Assess</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.js"></script>
+    <script src="/static/app.js"></script>
+</body>
+</html>

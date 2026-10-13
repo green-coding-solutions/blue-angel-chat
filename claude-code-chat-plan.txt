@@ -1,0 +1,18 @@
+I want to create a chat application for people that are interested to be certified for the Blue Angel for Software
+  (DE-UZ 215). In this folder you find a file called criteria.txt which holds all the criteria for the certification.
+
+  What I would like to have is an interactive web application where the user can input an URL into a form field and
+  then an AI agent processes the URL, crawls the main page and extracts information about the product, and then answers
+  the certification questions with a structured output that the frontend can then show nicely.
+  By nicely I mean that every criterion is shown as Verified, Not-Possible, or maybe and then show the comments that
+  have come up in the verification.
+
+  Since this task involves an agent loop I would like to have the same behaviour that you, claude code, have for me in
+  the CLI. can I do that via the AgentSDK? Or do I need to write the agent loop myself with the Anthropic API?
+
+  Please answer all my questions and then also make a demo run with https://www.ecosia.org/browser and see if it could
+  be Blue Angel certified. Use these information to refine your plan how to write the app that I need.
+
+  for the frontend please use a simple Fomantic UI and native javascript calling to make a chat like window like you
+  have with Claude online or ChatGPT. It should stream the working process of claude code as I have it in the CLI, so
+  that I can see the updates happening.

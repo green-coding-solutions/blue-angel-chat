@@ -1,0 +1,171 @@
+body {
+    background: #f6f7f9;
+}
+
+#top-menu {
+    z-index: 10;
+}
+
+#chat {
+    padding: 70px 0 110px;
+}
+
+#messages {
+    max-width: 960px !important;
+}
+
+.message-row {
+    display: flex;
+    margin: 0 0 1.2em;
+}
+
+.message-row.user {
+    justify-content: flex-end;
+}
+
+.message-row.assistant .bubble {
+    width: 100%;
+}
+
+.message-row.user .bubble {
+    max-width: 75%;
+    background: #2185d0;
+    color: #fff;
+    border: none;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.bubble {
+    margin: 0 !important;
+}
+
+.disclaimer {
+    color: #888;
+    font-size: 0.9em;
+}
+
+#composer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px 0 20px;
+    background: linear-gradient(to bottom, rgba(246, 247, 249, 0), #f6f7f9 35%);
+}
+
+#composer .container {
+    max-width: 960px !important;
+}
+
+/* Live activity timeline */
+.timeline .step {
+    display: flex;
+    gap: 0.6em;
+    padding: 0.35em 0;
+    align-items: flex-start;
+}
+
+.timeline .step > .icon {
+    flex: 0 0 auto;
+    margin-top: 0.15em;
+}
+
+.timeline .step .step-body {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.timeline .step.text .step-body {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.timeline .step.thinking .step-body {
+    color: #888;
+    font-style: italic;
+    white-space: pre-wrap;
+    font-size: 0.92em;
+}
+
+.timeline .step.thinking.collapsed .step-body {
+    max-height: 3.2em;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.timeline .step.tool .tool-name {
+    font-weight: 600;
+}
+
+.timeline .step.tool .tool-arg {
+    font-family: monospace;
+    font-size: 0.9em;
+    word-break: break-all;
+    color: #2185d0;
+}
+
+.timeline .step.tool .tool-meta {
+    color: #888;
+    font-size: 0.85em;
+}
+
+.timeline .step.tool .tool-meta.error {
+    color: #db2828;
+}
+
+.run-stats {
+    color: #888;
+    font-size: 0.85em;
+    margin-top: 0.8em;
+}
+
+/* Report */
+.report {
+    margin-top: 1em !important;
+}
+
+.report .product-meta .label {
+    margin-bottom: 0.3em;
+}
+
+.report .ui.statistics {
+    margin: 1.2em 0 !important;
+    justify-content: center;
+}
+
+.report .section-header {
+    margin-top: 1.6em !important;
+}
+
+.report .criterion-title {
+    display: flex !important;
+    align-items: center;
+    gap: 0.6em;
+}
+
+.report .criterion-title .status-label {
+    min-width: 7.5em;
+    text-align: center;
+}
+
+.report .criterion-title .criterion-name {
+    flex: 1 1 auto;
+}
+
+.report .criterion-question {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 0.8em;
+}
+
+.report .evidence-quote {
+    border-left: 3px solid #ddd;
+    padding-left: 0.7em;
+    color: #555;
+    margin: 0.2em 0 0.6em;
+}
+
+.report .evidence-url {
+    word-break: break-all;
+}
